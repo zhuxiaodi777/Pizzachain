@@ -10,4 +10,4 @@ Once an order is complete, customers can choose to submit their contact informat
 
 
 ## UML diagram
-![UML Image](assets/Class Diagram0.png)
+![UML Image](assets/UML.png)
