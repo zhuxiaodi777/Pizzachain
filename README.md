@@ -9,3 +9,5 @@ Orders can be sent through a web portal, phone, or text messages. Orders include
 Once an order is complete, customers can choose to submit their contact information and/or provide feedback for the branch. All feedback is collectively analyzed to monitor and enhance performance. The software you are developing should manage all aforementioned operations and provide managers with real-time dashboards. Ideally, the software will incorporate some flexibility to fit the small variations for each branch.
 
 
+## UML diagram
+![Class Diagram0.png](..%2FClass%20Diagram0.png)
