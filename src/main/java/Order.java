@@ -1,5 +1,3 @@
-package java;
-
 public class Order {
 	private Integer id;
 	private String type;  // e.g., "Takeout" or "Delivery"
@@ -27,6 +25,10 @@ public class Order {
 	// Getter for status
 	public String getStatus() {
 		return status;
+	}
+
+	public double calculateTotalPrice() {
+		return orderDetails.calculateTotalPrice();
 	}
 
 	// Overridden toString method to display order details
