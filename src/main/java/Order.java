@@ -41,4 +41,8 @@ public class Order {
 				", orderDetails=" + orderDetails +
 				'}';
 	}
+
+	public int getId() {
+		return 0;
+	}
 }

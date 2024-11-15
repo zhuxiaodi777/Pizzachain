@@ -80,4 +80,16 @@ public class Store {
                 ", employees=" + employees.size() +
                 '}';
     }
+
+    public void initializeMenu(List<Item> items) {
+        for (Item item : items) {
+            menu.addItem(item);
+        }
+    }
+
+    public double calculateTotalRevenue() {
+        accounting.calculateProfit();
+        return totalRevenue;
+    }
+
 }

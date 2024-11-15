@@ -34,4 +34,9 @@ public class Menu {
     public String toString() {
         return "Menu{" + "menuItems=" + menuItems + '}';
     }
+
+
+    public Item[] getMenuItems() {
+        return new Item[0];
+    }
 }
