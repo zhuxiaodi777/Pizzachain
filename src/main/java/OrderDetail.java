@@ -1,5 +1,3 @@
-package java;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,6 +7,10 @@ public class OrderDetail {
 	private String specialInstructions;
 	private String deliveryLocation;
 
+	public OrderDetail() {
+		this("Default Location", "No special instructions");
+	}
+
 	// Constructor to initialize empty lists for items and quantities
 	public OrderDetail(String deliveryLocation, String specialInstructions) {
 		this.items = new ArrayList<>();
@@ -17,6 +19,9 @@ public class OrderDetail {
 		this.deliveryLocation = deliveryLocation;
 	}
 
+	public List<Item> getItems() {
+		return items;
+	}
 	// Method to add an item with a specific quantity to the order
 	public void addItem(Item item, Integer quantity) {
 		items.add(item);
